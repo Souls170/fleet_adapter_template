@@ -134,7 +134,6 @@ class RobotAPI:
         else:
             return None
 
-
     def fetch_data(self, robot_name: str = None):
         if robot_name is None:
             url = self.prefix + f'/open-rmf/rmf_demos_fm/status/'

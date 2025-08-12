@@ -34,8 +34,8 @@ from rmf_task_msgs.msg import TaskProfile, TaskType
 
 from functools import partial
 
-from .RobotCommandHandle import RobotCommandHandle
-from .RobotClientAPI import RobotAPI
+from RobotCommandHandle import RobotCommandHandle
+from RobotClientAPI import RobotAPI
 
 # ------------------------------------------------------------------------------
 # Helper functions
